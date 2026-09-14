@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: arize-phoenix-sqlean
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/arize-phoenix-sqlean/arize_phoenix_sqlean-${{ version }}.tar.gz
-  sha256: 0437552bbe375be920f78c83a78de901fbd7497122aca30aa4e4884cbad1542d
+  sha256: 9ab8c44b027ad0f52c0c1b1bb8330609595212c10722ebecb7108a7fc0cc752c
   patches:
     - remove-system-paths.patch
 
